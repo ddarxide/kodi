@@ -15,7 +15,7 @@ services:
      KODI_DB_USER: kodi
      KODI_DB_PASS: kodi
      KODI_DB_PORT: 3306
-     TZ: Europe/Madrid
+     TZ: Europe/Warsaw
    volumes:
      - ./kodi_data:/data
 
@@ -26,4 +26,5 @@ services:
      
 
      
+
 
